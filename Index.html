@@ -1,0 +1,169 @@
+<!-- Esta es una página web de una tienda de ropa, su CSS se llama "StyleFashionClothes" sí se requiere consultar está en la carpeta "CSSClothesWS"-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionStore</title>
+    <link rel="stylesheet" href="StyleFashionClothes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+SAS+Guides&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="Navbar"> 
+        <div class="logo"> FashionStore
+            <!-- Recuerda que los dos puntos ".." es para referenciar a una carpeta padre (es decir, que donde estas está en una carpeta más grande Ej: Carpeta padre -> Carpeta hijo (es la carpeta padre de la nueva carpeta hijo) -> Carpeta Subhijo -->
+        </div>
+        <section id="Carrito" class="Carrito">
+            <span id="ContadorItemsCarrito" class="Contador"> 0 </span>
+        </section>
+        <section class="CarritoImage">
+            <img src="../Images-HTML-CSS-Project/CarritoPagWeb.png" alt="CarritoDeCompras" width="60">
+        </section>
+        <h1 class="TituloPrincipal"> Bienvenido a Fashion Store </h1>
+        <h2 class="SubtituloPrincipal"> La mejor tienda de ropa de México </h2>    
+        <nav class="NavMain"> 
+            <a href="#Welcome" class="LinkWelcome"> Bienvenido/a </a>
+            <a href="#CompleteCatalog" class="CompleteCatalog"> Catálogo Completo </a>
+            <a href="#WomenSection" class="WomenSection"> Women </a>
+            <a href="#MenSection" class="MenSection"> Men </a>
+            <a href="#KidsSection" class="KidsSection"> Kids </a>
+            <a href="#Promotions" class="PromotionsSection"> Descuentos </a>
+            <a href="#Contact" class="Contact"> Contacto </a>
+        </nav>      
+    </header>
+
+<main>
+<!-- Sección 0 de bienvenida -->
+<section id="Welcome" class="Summary">
+<div class="SummarySection"> 
+    <h1 class="badge"> Nuestro catálogo </button>
+    <h2 class="HeaderTitle"> Nuevos modelos cada semana </h1>
+</div>
+</section>
+
+<!-- Sección 1 Fotografías del catálogo completo incluye una fotografía de cada tipo de prenda: Hombre, Mujer y Niño -->
+ <section id="CompleteCatalog" class="MainInfo">
+<div class="MainInfo">
+    <div class="ImagesMainTotal">
+        <div class="Men1ImageMain">
+            <img src="../Images-HTML-CSS-Project/Prenda1Hombre.avif" alt="Prenda 1 hombre" width="200">
+            <p> Camisa de vestir para hombre Blanca <span class="Precio1"> $20 </span> </p>
+            <section id="Carrito">
+                <button id="AgregarCarrito" class="BotonCarrito"> Comprar </button>
+            </section>
+        </div>
+        <div class="Women1ImageMain">
+            <img src="../Images-HTML-CSS-Project/Prenda1Mujer.avif" alt="Prenda 1 Mujer" width="200">
+            <p> camisa Formal para oficina <span class="Precio2"> $30 </span> </p>
+            <button id="AgregarCarrito" class="BotonCarrito"> Comprar </button>
+        </div>
+            <div class="Kids1ImageMain">
+            <img src="../Images-HTML-CSS-Project/Prenda1Niño.webp" alt="Prenda 1 Niño" width="200">
+            <p> Camisa Elegante Formal para niño <span class="Precio3"> $15 </span> </p>
+            <button id="AgregarCarrito" class="BotonCarrito"> Comprar </button>
+        </div>
+    </div>
+    <div> <p class="HeaderP1"> La mejor ropa, al mejor precio posible
+        Para todas las edades</p>
+    </div>
+</div>
+ </section>
+
+ <!-- Sección 2 Aquí solo se muestra las prendas de mujer -->
+<section id="WomenSection" class="WomenClothes">
+    <span class="badge2"> Women </span>
+    <h1 class="WomenSection2"> Nuestras prendas de Mujer más populares </h1>
+        <div class="PrendasdeMujer">
+        <div class="WomenImagesSection">
+            <div class="Women1ImageMain"> 
+                <img src="../Images-HTML-CSS-Project/Prenda1Mujer.avif" alt="Prenda 1 Mujer" width="200">
+                <p> Camisa para la Oficina disponible en todas las tallas <span class="Precio4"> $40 </span> </p>
+            </div>
+            <div class="Women2Image">
+                <img src="../Images-HTML-CSS-Project/Prenda2Mujer.jpeg" alt="Prenda 2 Mujer" width="200">
+                <p> Camisa formal y muy elegante <span class="Precio5"> $30 </span> </p>
+            </div>
+            <div class="Women3Image">
+                <img src="../Images-HTML-CSS-Project/Prenda3Mujer.avif" alt="Prenda 3 Mujer" width="220">
+                <p> Camisa para Mujer solo en unitalla <span class="Precio6"> $30 </span> </p>
+            </div>
+        </div>
+    </div>
+</section>  
+
+    <!-- Sección 3 Se muestrasn las imagenes de la ropa de hombre -->
+<section id="MenSection" class="MenClothes">
+        <span class="badge3"> Men </span>
+        <div class="MenSectionImages">
+            <div class="Men1Image">
+                <img src="../Images-HTML-CSS-Project/Prenda1Hombre.avif" alt="Prenda 1 Hombre" width="200">
+                <p> Camisa cómoda y formal tenemos en todas las tallas <span class="Precio7"> $20 </span> </p>
+            </div>
+            <div class="Men2Image">
+                <img src="../Images-HTML-CSS-Project/Prenda3Hombre.avif" alt="Prenda 2 Hombre" width="200">
+                <p> Camisa para todas las ocasiones ultimas piezas <span class="Precio8"> $10 </span> </p>
+            </div>
+            <div class="Men3Image"> 
+                <img src="../Images-HTML-CSS-Project/Prenda2Hombre.avif" alt="Prenda 3 Hombre" width="200">
+                <p> Camisa formal para el trabajo aparta la tuya! <span class="Precio9"> $15 </span> </p>
+            </div>
+        </div>    
+     </section>
+    </div>
+
+<!-- Sección 4 Son las fotos para la sección Niños --> 
+<section id="KidsSection" class="KidsClothes">
+    <span class="badge3"> Kids </span>
+    <div class="PrendasNiños">
+        <div class="Kids1Image">
+            <img src="../Images-HTML-CSS-Project/Prenda1Niño.webp" alt="Prenda 1 Niño" width="200">
+            <p> Camisa para niños de 8 a 10 años todas las tallas disponibles <span class="Precio10"> $15 </span> </p>
+        </div>
+        <div class="Kids2Image"> 
+            <img src="../Images-HTML-CSS-Project/Prenda2Niño.avif" alt="Prenda 2 niño" width="200">
+            <p> Camisa para niños de 5 a 8 años solo en talla M y CH <span class="Precio11"> $25 </span> </p>
+        </div>
+        <div class="Kids3Image">
+            <img src="../Images-HTML-CSS-Project/Prenda3Niño.webp" alt="Prenda 3 niño" width="200">
+            <p> Bella camisa para niños de 10 a 13 años perfecta para eventos especiales <span class="Precio12"> $45 </span> </p>
+        </div>
+    </div>
+</section>
+
+<!-- Sección 5 Esta dedicada a las promociones de ropa vigentes-->
+<section id="Promotions" class="Promotion">
+    <span class="badge4"> Promociones </span>
+    <div class="PromosText">
+        <div class="Promo1">
+            <h2> Descuento 2x1 </h2>
+            <p>  todos los lunes, miercoles y viernes, todo el día</p>
+        </div>
+    </div> 
+ </section>
+</main>
+
+ <!-- Sección 6 Footer de la página con los datos generales -->
+  <footer id="Contact" class="ContactInfo">
+    <span class="ContactTitle"> Contacto </span>
+        <section class="ContactDetails">
+            <section class="Gmail">
+                <p> Correo:
+                    FashionStore@gmail.com </p>
+            </section>
+            <section class="number">
+                <p> Teléfono:
+                    55 1234 5678
+                </p>
+            </section>
+            <section class="Note">
+                <p> Quejas al correo: quejas.FS@gmail.com
+                    Agradecemos su preferencia
+                </p>
+            </section>
+        </section>    
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

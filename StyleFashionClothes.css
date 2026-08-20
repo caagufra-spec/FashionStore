@@ -1,0 +1,416 @@
+body { 
+    background-color:rgba(255, 228, 196, 0.55);
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+.logo {
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+    letter-spacing: 0.01em;
+    margin: 0 auto;
+    background-color: teal;
+    
+}
+.TituloPrincipal { 
+    text-align: center;
+    font-family: fantasy;
+    color: teal;
+}
+.SubtituloPrincipal {
+    text-align: center;
+}
+.NavMain {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: teal;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    column-gap: 140px;
+}
+header {
+    border-bottom: 2px solid black;
+}
+.Carrito { 
+    margin: 10px auto;
+    margin-bottom: 0;
+    margin-right: 120px;
+    display: flex;
+    border: solid teal;
+    max-width: 30px;
+    border-radius: 10px;
+    background-color: teal;
+    justify-content:center;
+}
+.CarritoImage {
+    display: flex;
+    margin: 5px auto;
+    max-width: 100px;
+    margin-right:100px ;
+    margin-top: 0;
+}
+#AgregarCarrito {
+    background-color: teal;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#ContadorItemsCarrito {
+    
+    text-align: center;
+    color:white;
+    
+}
+.LinkWelcome {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family:"Playfair Display", serif;
+    max-height: 30px;
+}
+.CompleteCatalog {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family:"Playfair Display", serif;
+}
+.WomenSection {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family:"Playfair Display", serif;
+    max-height: 30px;
+}
+.MenSection {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family:"Playfair Display", serif;
+    max-height: 30px;
+}
+.KidsSection {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family:"Playfair Display", serif;
+    max-height: 30px;
+}
+.PromotionsSection {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family:"Playfair Display", serif;
+    max-height: 30px;
+}
+.Contact {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family:"Playfair Display", serif;
+    max-height: 30px;
+}
+.badge { 
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: auto;
+    margin: 10px auto;
+    font-size: 30px;
+    font-family: fantasy;
+    color: teal;
+}
+.HeaderTitle {
+    text-align: center;
+    color: black;
+    margin: 10px auto
+}
+.HeaderP1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 15px;
+    letter-spacing: 0.02;
+    margin: 10px auto; 
+}
+.MainButtons {
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    column-gap:100px;
+}
+.MainInfo {
+    text-align: center;
+}
+.ImagesMainTotal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1px;
+    column-gap: 45px;
+}
+.GeneralTitle {
+    text-align: center;
+    margin: 15px auto;
+
+}
+.Men1ImageMain {
+    text-align:center;
+    border: 2px solid green;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio1 {
+    font-weight: 10px;
+    color: teal;
+}
+.Women1ImageMain {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio2 {
+    font-weight: 10px;
+    color: teal;
+}
+.Kids1ImageMain {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio3 {
+    font-weight: 10px;
+    color: teal;
+}
+.WomenClothes {
+    text-align: center;
+    margin: 20px;
+    border-top: 2px dotted teal;
+    border-bottom: 2px dotted teal;
+    padding: 50px;
+}
+.badge2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    color: teal;
+    border: solid teal;
+    max-width: 170px;
+    max-height: 60px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.PrendasdeMujer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.WomenSection2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family:fantasy;
+    margin: 0 auto;
+}
+.WomenImagesSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1px;
+    margin: 0 auto;
+    column-gap: 20px;
+}
+.Women1ImageMain {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio4 {
+    font-weight: 10px;
+    color: teal;
+}
+.Women2Image {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio5 {
+    font-weight: 10px;
+    color: teal;
+}
+.Women3Image {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 220px;
+}
+.Precio6 {
+    font-weight: 10px;
+    color: teal;
+}
+.MenClothes {
+    border-bottom: 2px dotted teal;
+    padding: 50px;
+}
+.badge3 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    color: teal;
+    border: solid teal;
+    max-width: 150px;
+    max-height: 60px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.MenSectionImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1px;
+    column-gap: 20px;
+}
+.Men1Image {
+    text-align:center;
+    border: 2px solid green;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio7 {
+    font-weight: 10px;
+    color: teal;
+}
+.Men2Image {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio8 {
+    font-weight: 10px;
+    color: teal;
+}
+.Men3Image {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 200px;
+    max-height: auto;
+}
+.Precio9 {
+    font-weight: 10px;
+    color: teal;
+}
+.KidsClothes {
+    border-bottom: 2px dotted teal;
+    padding: 50px;
+}
+.PrendasNiños {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1px;
+    column-gap: 20px;
+}
+.Kids1Image {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio10 {
+    font-weight: 10px;
+    color:blue;
+}
+.Kids2Image {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 19px;
+    max-width: 200px;
+    max-height: 370px;
+}
+.Precio11 {
+    font-weight: 10px;
+    color:blue;
+}
+.Kids3Image {
+    text-align:center;
+    border: 2px solid black;
+    font-size: 20px;
+    max-width: 200px;
+}
+.Precio12 {
+    font-weight: 10px;
+    color:blue;
+}
+.badge4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    color: teal;
+    border: solid teal;
+    max-width: 150px;
+    max-height: 50px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.PromosText {
+    border: 2px solid teal;
+    border-style: dashed;
+    max-width: 200px;
+    margin-bottom: 15px;
+    display:flex;
+    margin: 20px auto;
+}
+.Promo1 {
+    text-align: center;
+}
+footer {
+    border-top: 2px solid black;
+}
+.ContactTitle {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    color: teal;
+    border: solid teal;
+    max-width: 150px;
+    max-height: 40px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.ContactDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 150px;
+}
