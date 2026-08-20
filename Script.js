@@ -11,6 +11,7 @@ const ContadorItemsCarrito = document.querySelector("#ContadorItemsCarrito");
 AgregarCarrito.forEach((AgregarCarrito, indice) => {
     AgregarCarrito.addEventListener("click",function() {
         console.log ("Usuario hizo click");
+        
     });
 });
 
