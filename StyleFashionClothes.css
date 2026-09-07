@@ -20,7 +20,7 @@ body {
 .SubtituloPrincipal {
     text-align: center;
 }
-.NavMain {
+.Sidebar {
     text-align: center;
     font-size: 20px;
     margin-bottom: 15px;
@@ -29,6 +29,18 @@ body {
     display:flex;
     justify-content: center;
     column-gap: 140px;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: auto; /* De esta manera se oculta fuera de la pantalla el menu */
+    background-color: beige;
+    transition: left 0.3s ease;
+    padding-top: 60px;
+    z-index: 1000;
+}
+.SidebarTitle {
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 header {
     border-bottom: 2px solid black;

@@ -6,11 +6,18 @@ function TotalAPagar (PrecioUnitario, Cantidad) {
 
 //Formula para el conteo de Items en el carrito
 const AgregarCarrito = document.querySelectorAll("#AgregarCarrito");
-const ContadorItemsCarrito = document.querySelector("#ContadorItemsCarrito");
+const ContadorItemsCarrito = document.getElementById("ContadorItemsCarrito");
 
-AgregarCarrito.forEach((AgregarCarrito, indice) => {
-    AgregarCarrito.addEventListener("click",function() {
-        console.log ("Usuario hizo click");
+function ContadorItems (Counter) {
+    ContadorItemsCarrito.textContent = Number(ContadorItemsCarrito.textContent) +1;
+    console.log (ContadorItemsCarrito) //Tiene que actualizar el contador ya que el textContent actualiza la información en el DOM
+}
+
+AgregarCarrito.forEach((AgregarCarrito) => {
+    AgregarCarrito.addEventListener("click",ContadorItems)
     });
-});
 
+// A continuación vamos a cambiar la orientación del menú de lamnera lateral 
+const NavMain = document.querySelectorAll("#Navbar")
+
+nav.classList.toggle ('nav-lateral');
