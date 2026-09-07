@@ -18,6 +18,16 @@ AgregarCarrito.forEach((AgregarCarrito) => {
     });
 
 // A continuación vamos a cambiar la orientación del menú de lamnera lateral 
-const NavMain = document.querySelectorAll("#Navbar")
+const CloseButtonSideBar = document.getElementById('CloseButton')
+const SideBarButton = document.getElementById('MenuButtomOpen')
+const Sidebar = document.getElementById('Sidebar')
 
-nav.classList.toggle ('nav-lateral');
+// Para abrir o cerrar el menú al hacer click en el botón principal
+SideBarButton.addEventListener ('click',() => {
+    Sidebar.classList.toggle ('active');
+});
+
+// Cerrar el menú con el botón de cierre dentro del sidebar
+CloseButtonSideBar.addEventListener('click', () => {
+    Sidebar.classList.remove('active');
+});
